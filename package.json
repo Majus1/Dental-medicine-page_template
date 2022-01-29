@@ -1,0 +1,22 @@
+{
+  "name": "dental-medicine-page_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Majus1/Dental-medicine-page_template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Majus1/Dental-medicine-page_template/issues"
+  },
+  "homepage": "https://github.com/Majus1/Dental-medicine-page_template#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
