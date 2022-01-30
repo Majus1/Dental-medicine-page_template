@@ -2,6 +2,28 @@
 
 // LAYOUT
 
+// <!-- ::::: Top header navigation ::::: -->
+.social-badges {
+    .social-badge {
+        display: flex;
+        background-color: white;
+        color: $primary;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 4px;
+    }
+    .language-switcher {
+        i {
+            color: $primary;
+        }
+    }
+}
+// <!-- ::::: Top header navigation ::::: -->
+
 // <!-- ::::: Middle header navigation ::::: -->
 #middle-header {
     i {

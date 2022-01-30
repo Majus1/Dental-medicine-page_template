@@ -11957,6 +11957,29 @@ fieldset:disabled .btn {
   }
 }
 
+.social-badges .social-badge {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  color: #0d6efd;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 4px;
+}
+
+.social-badges .language-switcher i {
+  color: #0d6efd;
+}
+
 #middle-header i {
   font-size: 2rem;
   color: #0d6efd;
