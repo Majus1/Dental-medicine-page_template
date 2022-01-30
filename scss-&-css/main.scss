@@ -37,3 +37,29 @@
     }
 }
 // <!-- ::::: Middle header navigation ::::: -->
+
+// <!-- ::::: Hero image ::::: -->
+#hero-image {
+    background-image: url("../assets/images/smir-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+
+.big-badge {
+    display: flex;
+        background-color: $primary;
+        color: $primary;
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 4px;
+        i {
+            font-size: 2rem;
+            color: white;
+        }
+}
+// <!-- ::::: Hero image ::::: -->
