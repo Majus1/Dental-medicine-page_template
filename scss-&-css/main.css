@@ -12024,4 +12024,24 @@ fieldset:disabled .btn {
   font-size: 2rem;
   color: white;
 }
+
+#card-feature-1 img {
+  width: 75px;
+}
+
+#card-feature-2 {
+  background-color: #fd9843;
+}
+
+#card-feature-2 img {
+  width: 75px;
+}
+
+#card-feature-3 {
+  background-color: #343a40;
+}
+
+#card-feature-3 img {
+  width: 75px;
+}
 /*# sourceMappingURL=main.css.map */
