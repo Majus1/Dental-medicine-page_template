@@ -11956,4 +11956,13 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
+
+#middle-header i {
+  font-size: 2rem;
+  color: #0d6efd;
+}
+
+#middle-header .text-section .lead {
+  font-weight: 400;
+}
 /*# sourceMappingURL=main.css.map */

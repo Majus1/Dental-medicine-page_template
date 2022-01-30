@@ -1,1 +1,17 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// LAYOUT
+
+// <!-- ::::: Middle header navigation ::::: -->
+#middle-header {
+    i {
+        font-size: 2rem;
+        color: $primary;
+    }
+    .text-section {
+        .lead {
+            font-weight: 400;
+        }
+    }
+}
+// <!-- ::::: Middle header navigation ::::: -->
