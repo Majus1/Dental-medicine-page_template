@@ -1,7 +1,10 @@
+// <!-- ::::: Custom variables overide ::::: -->
+$border-radius-lg: 12px !default;
+// <!-- ::::: Custom variables overide ::::: -->
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 // LAYOUT
-
 // <!-- ::::: Top header navigation ::::: -->
 .social-badges {
     .social-badge {
@@ -49,6 +52,9 @@
     height: 70vh;
     #hero-image-content {
         padding-top: 20vh;
+        @media (min-width: 992px) {
+            padding-top: 10vh;
+        }
     }
 }
 
@@ -71,21 +77,57 @@
 // <!-- ::::: Hero image ::::: -->
 
 // <!-- ::::: Our features ::::: -->
+#our-features {
+    @media (min-width: 1200px) {
+        margin-top: -8rem;
+    }
+}
+
 #card-feature-1 {
+    width: 95%;
+    @media (min-width: 992px) {
+        width: 100%;
+    }
+    @media (min-width: 992px) and (max-width: 1200px) {
+        border-radius: 0px !important;
+    }
     img {
         width: 75px;
     }
+    p {
+        max-width: 260px;
+    }
 }
 #card-feature-2 {
+    width: 95%;
+    @media (min-width: 992px) {
+        width: 100%;
+    }
+    @media (min-width: 992px) and (max-width: 1200px) {
+        border-radius: 0px !important;
+    }
     background-color: $orange-400;
     img {
         width: 75px;
     }
+    p {
+        max-width: 260px;
+    }
 }
 #card-feature-3 {
+    width: 95%;
+    @media (min-width: 992px) {
+        width: 100%;
+    }
+    @media (min-width: 992px) and (max-width: 1200px) {
+        border-radius: 0px !important;
+    }
     background-color: $gray-800;
     img {
         width: 75px;
+    }
+    p {
+        max-width: 260px;
     }
 }
 // <!-- ::::: Our features ::::: -->

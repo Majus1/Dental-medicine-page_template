@@ -2431,7 +2431,7 @@ progress {
   min-height: calc(1.5em + 1rem + 2px);
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
-  border-radius: 0.3rem;
+  border-radius: 12px;
 }
 
 .form-control-lg::file-selector-button {
@@ -2546,7 +2546,7 @@ textarea.form-control-lg {
   padding-bottom: 0.5rem;
   padding-left: 1rem;
   font-size: 1.25rem;
-  border-radius: 0.3rem;
+  border-radius: 12px;
 }
 
 .form-check {
@@ -2929,7 +2929,7 @@ textarea.form-control-lg {
 .input-group-lg > .btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
-  border-radius: 0.3rem;
+  border-radius: 12px;
 }
 
 .input-group-sm > .form-control,
@@ -3826,7 +3826,7 @@ fieldset:disabled .btn {
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
-  border-radius: 0.3rem;
+  border-radius: 12px;
 }
 
 .btn-sm, .btn-group-sm > .btn {
@@ -5531,13 +5531,13 @@ fieldset:disabled .btn {
 }
 
 .pagination-lg .page-item:first-child .page-link {
-  border-top-left-radius: 0.3rem;
-  border-bottom-left-radius: 0.3rem;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
 }
 
 .pagination-lg .page-item:last-child .page-link {
-  border-top-right-radius: 0.3rem;
-  border-bottom-right-radius: 0.3rem;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 
 .pagination-sm .page-link {
@@ -6328,7 +6328,7 @@ fieldset:disabled .btn {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.3rem;
+  border-radius: 12px;
   outline: 0;
 }
 
@@ -6364,8 +6364,8 @@ fieldset:disabled .btn {
           justify-content: space-between;
   padding: 1rem 1rem;
   border-bottom: 1px solid #dee2e6;
-  border-top-left-radius: calc(0.3rem - 1px);
-  border-top-right-radius: calc(0.3rem - 1px);
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
 }
 
 .modal-header .btn-close {
@@ -6402,8 +6402,8 @@ fieldset:disabled .btn {
           justify-content: flex-end;
   padding: 0.75rem;
   border-top: 1px solid #dee2e6;
-  border-bottom-right-radius: calc(0.3rem - 1px);
-  border-bottom-left-radius: calc(0.3rem - 1px);
+  border-bottom-right-radius: 11px;
+  border-bottom-left-radius: 11px;
 }
 
 .modal-footer > * {
@@ -6716,7 +6716,7 @@ fieldset:disabled .btn {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.3rem;
+  border-radius: 12px;
 }
 
 .popover .popover-arrow {
@@ -6819,8 +6819,8 @@ fieldset:disabled .btn {
   font-size: 1rem;
   background-color: #f0f0f0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  border-top-left-radius: calc(0.3rem - 1px);
-  border-top-right-radius: calc(0.3rem - 1px);
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
 }
 
 .popover-header:empty {
@@ -8980,7 +8980,7 @@ fieldset:disabled .btn {
 }
 
 .rounded-3 {
-  border-radius: 0.3rem !important;
+  border-radius: 12px !important;
 }
 
 .rounded-circle {
@@ -12001,6 +12001,12 @@ fieldset:disabled .btn {
   padding-top: 20vh;
 }
 
+@media (min-width: 992px) {
+  #hero-image #hero-image-content {
+    padding-top: 10vh;
+  }
+}
+
 .big-badge {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12025,23 +12031,83 @@ fieldset:disabled .btn {
   color: white;
 }
 
+@media (min-width: 1200px) {
+  #our-features {
+    margin-top: -8rem;
+  }
+}
+
+#card-feature-1 {
+  width: 95%;
+}
+
+@media (min-width: 992px) {
+  #card-feature-1 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  #card-feature-1 {
+    border-radius: 0px !important;
+  }
+}
+
 #card-feature-1 img {
   width: 75px;
 }
 
+#card-feature-1 p {
+  max-width: 260px;
+}
+
 #card-feature-2 {
+  width: 95%;
   background-color: #fd9843;
+}
+
+@media (min-width: 992px) {
+  #card-feature-2 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  #card-feature-2 {
+    border-radius: 0px !important;
+  }
 }
 
 #card-feature-2 img {
   width: 75px;
 }
 
+#card-feature-2 p {
+  max-width: 260px;
+}
+
 #card-feature-3 {
+  width: 95%;
   background-color: #343a40;
+}
+
+@media (min-width: 992px) {
+  #card-feature-3 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  #card-feature-3 {
+    border-radius: 0px !important;
+  }
 }
 
 #card-feature-3 img {
   width: 75px;
+}
+
+#card-feature-3 p {
+  max-width: 260px;
 }
 /*# sourceMappingURL=main.css.map */
