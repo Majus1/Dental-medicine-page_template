@@ -12110,4 +12110,16 @@ fieldset:disabled .btn {
 #card-feature-3 p {
   max-width: 260px;
 }
+
+#our-offers .card {
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#our-offers .card:hover {
+  background-color: #6ea8fe;
+  color: white;
+  -webkit-transform: translate(0, -5px);
+          transform: translate(0, -5px);
+}
 /*# sourceMappingURL=main.css.map */

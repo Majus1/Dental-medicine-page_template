@@ -131,3 +131,16 @@ $border-radius-lg: 12px !default;
     }
 }
 // <!-- ::::: Our features ::::: -->
+
+// <!-- ::::: Our offers ::::: -->
+#our-offers {
+    .card {
+        transition: .2s;
+    }
+    .card:hover {
+        background-color: $blue-300;
+        color: white;
+        transform: translate(0, -5px)
+    }
+}
+// <!-- ::::: Our offers ::::: -->
