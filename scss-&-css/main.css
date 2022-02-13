@@ -12127,7 +12127,11 @@ section {
           transform: translate(0, -5px);
 }
 
-.mg-grid-title-section p {
+.mg-grid-title-section h3, .mg-grid-title-section .h3 {
   font-weight: 700;
+}
+
+#pain-points {
+  background-color: #EAEAEA;
 }
 /*# sourceMappingURL=main.css.map */
