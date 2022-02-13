@@ -11957,6 +11957,10 @@ fieldset:disabled .btn {
   }
 }
 
+section {
+  margin-top: 72px;
+}
+
 .social-badges .social-badge {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12121,5 +12125,9 @@ fieldset:disabled .btn {
   color: white;
   -webkit-transform: translate(0, -5px);
           transform: translate(0, -5px);
+}
+
+.mg-grid-title-section p {
+  font-weight: 700;
 }
 /*# sourceMappingURL=main.css.map */
