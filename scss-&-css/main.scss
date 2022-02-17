@@ -166,7 +166,14 @@ section {
 // <!-- ::::: Pain points ::::: -->
 
 // <!-- ::::: Contact section ::::: -->
-#contact-section {
-    
+#contat-us_2 {
+    .card-img-overlay {
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,.25) 100%);
+        // background: rgba(2, 2, 2, 0.3);
+        padding-top: 50%;
+        p {
+            max-width: 320px;
+        }
+    }
 }
 // <!-- ::::: Contact section ::::: -->
