@@ -318,10 +318,10 @@
     <!-- ::::: Pain points ::::: -->
 
     <!-- ::::: Contact section ::::: -->
-    <section class="container-lg" id="contact-section">
-        <div class="d-flex flex-column">
+    <section class="container-lg mb-5" id="contact-section">
+        <div class="d-flex flex-column flex-md-row">
             <!-- Contat us #1 -->
-            <div class="d-sm-none card col rounded-3 mb-3 shadow" style=" border-bottom: 5px solid #0d6efd;">
+            <div class="d-sm-none card col rounded-3 mb-3 shadow" style="border-bottom: 5px solid #0d6efd;">
                 <img src="assets/images/appointment-1.jpg" class="card-img-top p-0" alt="..."
                     style="border-radius: 12px 12px 0px 0px;">
                 <div class="card-body">
@@ -338,7 +338,7 @@
             </div>
             <!-- Contat us #1 -->
             <!-- Contat us #2 -->
-            <div class="d-none d-sm-block card bg-dark text-white" id="contat-us_2">
+            <div class="col col-xl-4 d-none d-sm-block card bg-dark text-white mb-3 mb-md-0 mx-md-2" id="contat-us_2">
                 <img src="assets/images/appointment-1.jpg" class="card-img" alt="...">
                 <div class="card-img-overlay ps-5">
                     <div class="mg-icon-info d-flex flex-row gap-3 pb-3">
@@ -355,42 +355,33 @@
             <!-- Contat us #2 -->
     
             <!-- Form -->
-            <form class="rounded-3 shadow" action="POST">
+            <form class="col col-xl-8 d-flex flex-column col justify-content-center rounded-3 shadow mx-md-2" action="POST">
                 <div class="d-flex gap-2 form-heading justify-content-center mb-3">
                     <i class="bi bi-calendar-plus-fill" style="font-size: 1.1rem; color: primary;"></i>
                     <p class="h5 mb-0">Rezerviraj termin</p>
                 </div>
-                <div class="row d-flex flex-column flex-sm-row mx-0 px-0">
+                <div class="row d-flex flex-column flex-sm-row felx-lg-column mx-0 px-0">
                     <div class="form-floating mb-3 mx-2 px-0 col">
                         <input type="text" class="form-control" id="imeUporabnika" placeholder="Ime">
-                        <label class="ps-4" for="imeUporabnika">Ime</label>
+                        <label class="ps-4 small" for="imeUporabnika">Ime</label>
                     </div>
                     <div class="form-floating mb-3 mx-2 px-0 col">
                         <input type="text" class="form-control" id="priimekUporabnika" placeholder="Priimek">
-                        <label class="ps-4" for="priimekUporabnika">Priimek</label>
+                        <label class="ps-4 small" for="priimekUporabnika">Priimek</label>
                     </div>
                 </div>
-                <div class="row d-flex flex-column flex-sm-row mx-0 px-0">
+                <div class="row d-flex flex-column flex-sm-row felx-lg-column mx-0 px-0">
                     <div class="form-floating mb-3 mx-2 px-0 col">
                         <input type="email" class="form-control" id="emailUporabn2ika" placeholder="email">
-                        <label class="ps-4" for="emailUporabnika">Elektronski naslov</label>
+                        <label class="ps-4 small" for="emailUporabnika">Elektronski naslov</label>
                     </div>
                     <div class="form-floating mb-3 mx-2 px-0 col">
                         <input type="number" class="form-control" id="telefonUporabnika" placeholder="phone">
-                        <label class="ps-4" for="telefonUporabnika">Kontaktna številka</label>
+                        <label class="ps-4 small" for="telefonUporabnika">Kontaktna številka</label>
                     </div>
                 </div>
     
-                <!-- <div class="d-felx flex-column">
-                    <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="emailUporabn2ika" placeholder="email">
-                        <label for="imeUporabnika">Elektronski naslov</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="telfonUporabnika" placeholder="Telfon">
-                        <label for="telfonUporabnika">Kontaktna številka</label>
-                    </div>
-                </div> -->
+                <button type="button" class="btn btn-primary fw-bold mx-2 p-3 rounded-3">Book Appointment</button>
             </form>
             <!-- Form -->
         </div>

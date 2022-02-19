@@ -167,10 +167,13 @@ section {
 
 // <!-- ::::: Contact section ::::: -->
 #contat-us_2 {
+    // img {
+    //     max-height: 420px;
+    // }
     .card-img-overlay {
         background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,.25) 100%);
         // background: rgba(2, 2, 2, 0.3);
-        padding-top: 50%;
+        padding-top: 35%;
         p {
             max-width: 320px;
         }
@@ -180,6 +183,7 @@ section {
 form {
     background: white;
     padding: 16px 24px;
+    max-height: 420px;
     i {
         color: $primary;
     }

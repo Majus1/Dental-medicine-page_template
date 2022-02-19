@@ -12139,7 +12139,7 @@ section {
 #contat-us_2 .card-img-overlay {
   background: -webkit-gradient(linear, left bottom, left top, from(black), to(rgba(0, 0, 0, 0.25)));
   background: linear-gradient(0deg, black 0%, rgba(0, 0, 0, 0.25) 100%);
-  padding-top: 50%;
+  padding-top: 35%;
 }
 
 #contat-us_2 .card-img-overlay p {
@@ -12149,6 +12149,7 @@ section {
 form {
   background: white;
   padding: 16px 24px;
+  max-height: 420px;
 }
 
 form i {
