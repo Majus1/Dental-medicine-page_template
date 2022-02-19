@@ -166,6 +166,12 @@ section {
 // <!-- ::::: Pain points ::::: -->
 
 // <!-- ::::: Contact section ::::: -->
+#contact-section {
+    @media (min-width: 1200px) {
+        margin-top: -8rem;
+    }
+}
+
 #contat-us_2 {
     // img {
     //     max-height: 420px;
