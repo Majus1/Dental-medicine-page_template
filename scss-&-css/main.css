@@ -12145,4 +12145,13 @@ section {
 #contat-us_2 .card-img-overlay p {
   max-width: 320px;
 }
+
+form {
+  background: white;
+  padding: 16px 24px;
+}
+
+form i {
+  color: #0d6efd;
+}
 /*# sourceMappingURL=main.css.map */
