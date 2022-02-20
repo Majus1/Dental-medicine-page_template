@@ -12161,4 +12161,16 @@ form {
 form i {
   color: #0d6efd;
 }
+
+#about-us ul {
+  list-style-type: none;
+}
+
+#about-us i {
+  color: #0d6efd;
+}
+
+#about-us span {
+  color: #0d6efd;
+}
 /*# sourceMappingURL=main.css.map */
