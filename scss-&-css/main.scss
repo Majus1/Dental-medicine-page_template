@@ -7,7 +7,7 @@ $border-radius-lg: 12px !default;
 // LAYOUT
 // <!-- ::::: Global ::::: -->
 section {
-    margin-top: 72px;
+    padding-top: 72px;
 }
 // <!-- ::::: Global ::::: -->
 
@@ -212,4 +212,24 @@ form {
 // <!-- ::::: About us setciton ::::: -->
 
 // <!-- ::::: Konkurencne prednosti ::::: -->
+#konkurencne-prednosti {
+    background: $blue-100;
+    .big-badge_2 {
+        display: flex;
+            background-color: white;
+            color: $primary;
+            width: 65px;
+            height: 65px;
+            border-radius: 50%;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            margin: 0 4px;
+            img {
+                height: 35px;
+                color: $primary;
+                color: red;
+            }
+    }
+}
 // <!-- ::::: Konkurencne prednosti ::::: -->
