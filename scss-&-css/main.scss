@@ -236,5 +236,21 @@ form {
 // <!-- ::::: Konkurencne prednosti ::::: -->
 
 // <!-- ::::: Our team ::::: -->
-
+#ekipa {
+    .big-badge_2 {
+        display: flex;
+        background-color: $primary;
+        color: $primary;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 4px;
+        img {
+            height: 20px;
+        }
+    }
+}
 // <!-- ::::: Our team ::::: -->
