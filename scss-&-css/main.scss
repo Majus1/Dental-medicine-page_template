@@ -256,5 +256,34 @@ form {
 // <!-- ::::: Our team ::::: -->
 
 // <!-- ::::: Our testamonials ::::: -->
-
+#testimonials {
+    .big-badge_2 {
+        display: flex;
+        background-color: white;
+        color: $primary;
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: -46px;
+        img {
+            height: 25px;
+        }
+    }
+    .friendly-user {
+        .user-photo {
+            background: url("/assets/images/friendly-user-1.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 58px;
+            // max-width: 58px;
+            height: 58px;
+            // max-height: 58px;
+            border-radius: 50%;
+            
+        }
+    }
+}
 // <!-- ::::: Our testamonials ::::: -->

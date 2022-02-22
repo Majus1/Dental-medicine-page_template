@@ -12226,4 +12226,36 @@ form i {
 #ekipa .big-badge_2 img {
   height: 20px;
 }
+
+#testimonials .big-badge_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  color: #0d6efd;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -46px;
+}
+
+#testimonials .big-badge_2 img {
+  height: 25px;
+}
+
+#testimonials .friendly-user .user-photo {
+  background: url("/assets/images/friendly-user-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+}
 /*# sourceMappingURL=main.css.map */
