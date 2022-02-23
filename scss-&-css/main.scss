@@ -325,4 +325,25 @@ form {
 // <!-- ::::: Our blog posts ::::: -->
 
 // <!-- ::::: Page footer ::::: -->
+footer {
+    background-color: $blue-700;
+    color: white;
+    .business-owner {
+        .business-owner-photo {
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 58px;
+            height: 58px;
+            border-radius: 50%;
+            
+        }
+    }
+    .blog-post-photo {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    span {
+        color: $primary;
+    }
+}
 // <!-- ::::: Page footer ::::: -->

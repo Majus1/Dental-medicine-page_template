@@ -12296,4 +12296,26 @@ form i {
   border-radius: 50%;
   margin-left: auto;
 }
+
+footer {
+  background-color: #084298;
+  color: white;
+}
+
+footer .business-owner .business-owner-photo {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+}
+
+footer .blog-post-photo {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer span {
+  color: #0d6efd;
+}
 /*# sourceMappingURL=main.css.map */
