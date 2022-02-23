@@ -12227,6 +12227,10 @@ form i {
   height: 20px;
 }
 
+#testimonials {
+  background: #cfe2ff;
+}
+
 #testimonials .big-badge_2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12251,11 +12255,18 @@ form i {
 }
 
 #testimonials .friendly-user .user-photo {
-  background: url("/assets/images/friendly-user-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 58px;
   height: 58px;
   border-radius: 50%;
+}
+
+#testimonials button.owl-dot span {
+  background: white;
+}
+
+#testimonials button.owl-dot.active span {
+  background: #0d6efd;
 }
 /*# sourceMappingURL=main.css.map */

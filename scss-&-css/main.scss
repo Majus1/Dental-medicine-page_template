@@ -257,6 +257,7 @@ form {
 
 // <!-- ::::: Our testamonials ::::: -->
 #testimonials {
+    background: $blue-100;
     .big-badge_2 {
         display: flex;
         background-color: white;
@@ -274,15 +275,22 @@ form {
     }
     .friendly-user {
         .user-photo {
-            background: url("/assets/images/friendly-user-1.jpg");
             background-size: cover;
             background-repeat: no-repeat;
             width: 58px;
-            // max-width: 58px;
             height: 58px;
-            // max-height: 58px;
             border-radius: 50%;
             
+        }
+    }
+    button.owl-dot {
+        span {
+            background: white;
+        }
+    }
+    button.owl-dot.active {
+        span {
+            background: $primary;
         }
     }
 }

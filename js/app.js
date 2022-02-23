@@ -4,13 +4,13 @@ $(document).ready(function () {
         loop: true,
         margin: 10,
         responsiveClass: true,
-        // autoplay: true,
-        // autoplayTimeout: 8000,
-        // autoplayHoverPause: true,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        autoplayHoverPause: true,
         responsive: {
             0: {
                 items: 1,
-                nav: true
+                // nav: true
             },
             768: {
                 items: 2,
@@ -18,7 +18,7 @@ $(document).ready(function () {
             },
             992: {
                 items: 3,
-                nav: true,
+                // nav: true,
                 loop: false
             }
         }
