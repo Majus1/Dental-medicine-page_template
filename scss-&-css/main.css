@@ -12298,7 +12298,7 @@ form i {
 }
 
 footer {
-  background-color: #084298;
+  background-color: #052c65;
   color: white;
 }
 
@@ -12316,6 +12316,16 @@ footer .blog-post-photo {
 }
 
 footer span {
+  color: #0d6efd;
+}
+
+footer nav a {
+  text-decoration: none;
+  color: white;
+}
+
+footer #footer-contact-information i {
+  font-size: 2.2rem;
   color: #0d6efd;
 }
 /*# sourceMappingURL=main.css.map */
