@@ -5,11 +5,14 @@ $border-radius-lg: 12px !default;
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 // LAYOUT
+
+
 // <!-- ::::: Global ::::: -->
 section {
     padding-top: 72px;
 }
 // <!-- ::::: Global ::::: -->
+
 
 // <!-- ::::: Top header navigation ::::: -->
 .social-badges {
@@ -33,6 +36,7 @@ section {
 }
 // <!-- ::::: Top header navigation ::::: -->
 
+
 // <!-- ::::: Middle header navigation ::::: -->
 #middle-header {
     i {
@@ -46,6 +50,7 @@ section {
     }
 }
 // <!-- ::::: Middle header navigation ::::: -->
+
 
 // <!-- ::::: Hero image ::::: -->
 #hero-image {
@@ -63,7 +68,6 @@ section {
         }
     }
 }
-
 .big-badge {
     display: flex;
         background-color: $primary;
@@ -82,13 +86,13 @@ section {
 }
 // <!-- ::::: Hero image ::::: -->
 
+
 // <!-- ::::: Our features ::::: -->
 #our-features {
     @media (min-width: 1200px) {
         margin-top: -8rem;
     }
 }
-
 #card-feature-1 {
     width: 95%;
     @media (min-width: 992px) {
@@ -138,6 +142,7 @@ section {
 }
 // <!-- ::::: Our features ::::: -->
 
+
 // <!-- ::::: Our offers ::::: -->
 #our-offers {
     .card {
@@ -149,6 +154,7 @@ section {
         transform: translate(0, -5px)
     }
 }
+
 // <!-- ::: Title and button section ::: -->
 .mg-grid-title-section {
     h3 {
@@ -156,7 +162,13 @@ section {
     }
 }
 // <!-- ::: Title and button section ::: -->
+
 // <!-- ::::: Our offers ::::: -->
+
+
+// <!-- ::::: Our offers 2.0 ::::: -->
+// <!-- ::::: Our offers 2.0 ::::: -->
+
 
 // <!-- ::::: Pain points ::::: -->
 #pain-points {
@@ -165,13 +177,13 @@ section {
 }
 // <!-- ::::: Pain points ::::: -->
 
+
 // <!-- ::::: Contact section ::::: -->
 #contact-section {
     @media (min-width: 1200px) {
         margin-top: -14rem;
     }
 }
-
 #contat-us_2 {
     // img {
     //     max-height: 420px;
@@ -185,6 +197,7 @@ section {
         }
     }
 }
+
 // <!-- ::::: Form ::::: -->
 form {
     background: white;
@@ -195,7 +208,9 @@ form {
     }
 }
 // <!-- ::::: Form ::::: -->
+
 // <!-- ::::: Contact section ::::: -->
+
 
 // <!-- ::::: About us setciton ::::: -->
 #about-us {
@@ -210,6 +225,7 @@ form {
     }
 }
 // <!-- ::::: About us setciton ::::: -->
+
 
 // <!-- ::::: Konkurencne prednosti ::::: -->
 #konkurencne-prednosti {
@@ -235,6 +251,7 @@ form {
 }
 // <!-- ::::: Konkurencne prednosti ::::: -->
 
+
 // <!-- ::::: Our team ::::: -->
 #ekipa {
     .big-badge_2 {
@@ -254,6 +271,7 @@ form {
     }
 }
 // <!-- ::::: Our team ::::: -->
+
 
 // <!-- ::::: Our testamonials ::::: -->
 #testimonials {
@@ -297,6 +315,7 @@ form {
 }
 // <!-- ::::: Our testamonials ::::: -->
 
+
 // <!-- ::::: Our blog posts ::::: -->
 #recent-posts {
     span {
@@ -323,6 +342,7 @@ form {
     }
 }
 // <!-- ::::: Our blog posts ::::: -->
+
 
 // <!-- ::::: Page footer ::::: -->
 footer {
