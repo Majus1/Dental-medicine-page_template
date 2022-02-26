@@ -11,6 +11,16 @@ $border-radius-lg: 12px !default;
 section {
     padding-top: 72px;
 }
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
 // <!-- ::::: Global ::::: -->
 
 
@@ -164,16 +174,6 @@ section {
 // <!-- ::: Title and button section ::: -->
 
 // <!-- ::::: Our offers ::::: -->
-
-
-// <!-- ::::: Our offers 2.0 ::::: -->
-#our-offer_2 {
-    // .card {
-    //     border: 2px solid aqua;
-    //     min-width: 384px;
-    // }
-}
-// <!-- ::::: Our offers 2.0 ::::: -->
 
 
 // <!-- ::::: Pain points ::::: -->
