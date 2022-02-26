@@ -237,6 +237,12 @@ form {
 #konkurencne-prednosti {
     background: $blue-100;
     padding-bottom: 72px;
+    .card {
+        transition: .2s;
+    }
+    .card:hover {
+        transform: translate(0, -5px)
+    }
     .big-badge_2 {
         display: flex;
             background-color: white;
@@ -260,6 +266,12 @@ form {
 
 // <!-- ::::: Our team ::::: -->
 #ekipa {
+    .card {
+        transition: .2s;
+    }
+    .card:hover {
+        transform: translate(0, -5px)
+    }
     .big-badge_2 {
         display: flex;
         background-color: $primary;
@@ -324,6 +336,14 @@ form {
 
 // <!-- ::::: Our blog posts ::::: -->
 #recent-posts {
+    .card {
+        transition: .2s;
+    }
+    .card:hover {
+        background-color: $blue-300;
+        color: white;
+        transform: translate(0, -5px)
+    }
     span {
         color: $primary;
     }

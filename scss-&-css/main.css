@@ -12192,6 +12192,16 @@ form i {
   padding-bottom: 72px;
 }
 
+#konkurencne-prednosti .card {
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#konkurencne-prednosti .card:hover {
+  -webkit-transform: translate(0, -5px);
+          transform: translate(0, -5px);
+}
+
 #konkurencne-prednosti .big-badge_2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12215,6 +12225,16 @@ form i {
   height: 35px;
   color: #0d6efd;
   color: red;
+}
+
+#ekipa .card {
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#ekipa .card:hover {
+  -webkit-transform: translate(0, -5px);
+          transform: translate(0, -5px);
 }
 
 #ekipa .big-badge_2 {
@@ -12282,6 +12302,18 @@ form i {
 
 #testimonials button.owl-dot.active span {
   background: #0d6efd;
+}
+
+#recent-posts .card {
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#recent-posts .card:hover {
+  background-color: #6ea8fe;
+  color: white;
+  -webkit-transform: translate(0, -5px);
+          transform: translate(0, -5px);
 }
 
 #recent-posts span {
